@@ -1437,6 +1437,10 @@ footer {
             object-position: top;
         }
 
+        .equ6 {
+            right: -30px;
+        }
+
     }
 
     @media (max-width: 500px) {
@@ -1454,7 +1458,7 @@ footer {
             transform: rotate(-90deg);
             position: absolute;
             bottom: 70%;
-            left: -26%;
+            left: -24%;
             color: var(--span);
         }
 
