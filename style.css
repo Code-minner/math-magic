@@ -1499,7 +1499,7 @@ footer {
         }
 
 
-        .foot_sub_container p {
+        .foot_sub_container p:last-child  {
             max-width: 100%;
         }
 
