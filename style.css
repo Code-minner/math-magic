@@ -1169,7 +1169,7 @@ footer {
     background-color: var(--tertiary_color);
 }
 
-.foot_sub_container p {
+.foot_sub_container p:last-child {
     font-size: .85em;
     letter-spacing: 1.5px;
     line-height: 1.8;
@@ -1177,6 +1177,17 @@ footer {
     max-width: 60%;
     margin: 10px auto 0;
     padding-bottom: 2rem;
+}
+
+.numbox{
+    font-size: .85em;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px auto 0;
+    padding-bottom: 1px;
+    color: var(--tertiary_color);
 }
 
 .foot_sub_container_icon {
