@@ -943,7 +943,7 @@ form .content_two_sub_container_link {
     height: auto;
     background-color: var(--back_ground);
     border: 1px solid var(--tertiary_color_line);
-    padding: 0rem 20px 2rem;
+    padding: 0rem 10px 1rem;
     position: relative;
     border-radius: 4px;
     z-index: 1000;
@@ -959,7 +959,7 @@ form .content_two_sub_container_link {
     flex-direction: column;
     margin: 0 auto 3px;
     position: relative;
-    border-radius: 200px;
+    border-radius: 1100px;
     top: -6%;
 }
 
@@ -970,7 +970,7 @@ form .content_two_sub_container_link {
     margin: 0 auto;
     display: inline-block;
     opacity: 1;
-    border-radius: 50%;
+    border-radius: 5000px;
 
 }
 
@@ -1008,7 +1008,7 @@ form .content_two_sub_container_link {
     font-weight: 400;
     line-height: 1.8;
     letter-spacing: .4px;
-    margin: 20px 0 30px;
+    margin: 5px 0 30px;
     color: var(--secondary_color);
 
 }
