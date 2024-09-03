@@ -1517,6 +1517,16 @@ footer {
 
     }
 
+    @media (max-width: 450px) {
+        .head1 {
+            font-size: 3em;
+            transform: rotate(-90deg);
+            position: absolute;
+            bottom: 70%;
+            left: -31%;
+            color: var(--span);
+        }
+    }
 
     @media (max-width: 400px) {
         .head1 {
@@ -1524,7 +1534,21 @@ footer {
             transform: rotate(-90deg);
             position: absolute;
             bottom: 73%;
-            left: -29%;
+            left: -30%;
+            color: var(--span);
+        }
+        .equ6 {
+            right: -30px;
+        }
+    }
+
+    @media (max-width: 350px) {
+        .head1 {
+            font-size: 2.8em;
+            transform: rotate(-90deg);
+            position: absolute;
+            bottom: 73%;
+            left: -37%;
             color: var(--span);
         }
         .equ6 {
@@ -1536,10 +1560,10 @@ footer {
     @media (max-width: 300px) {
         .head1 {
             font-size: 2.9em;
-            transform: rotate(-90deg);
+            transform: rotate(0deg);
             position: absolute;
             bottom: 73%;
-            left: -32%;
+            left: -35%;
             color: var(--span);
             display: none;
         }
